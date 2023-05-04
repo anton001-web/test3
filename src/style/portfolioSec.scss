@@ -1,0 +1,42 @@
+.portfolio-section__body {
+  padding: $gap-top $gap-sides;
+  text-align: center;
+  background: var(--sec-bg);
+}
+
+.portfolio-section__title {
+  @extend %title-default;
+  margin-bottom: 80px;
+}
+
+.prtf-sec__petP-list__item {
+  margin-bottom: 140px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.prtf-sec__petP-list__item-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.prtf-sec__petP-list__link {
+  display: block;
+  margin-top: 40px;
+  @extend %text-default;
+  text-decoration: underline;
+}
+
+.portfolio-section__pet-projects__text {
+  @extend %text-default;
+  margin-top: 100px;
+}
+
+.prtf-gt__link {
+  margin-right: 4px;
+  @extend %text-default;
+  text-decoration: underline;
+}

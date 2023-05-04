@@ -1,0 +1,93 @@
+@import '~scss-reset/reset.css';
+@import 'vars';
+@import 'mixins&patterns';
+
+@import 'fonts';
+@import 'header';
+@import 'heroSec';
+@import 'aboutMe';
+@import 'skillsSec';
+@import 'portfolioSec';
+@import 'footer';
+
+body[data-theme='light'] {
+  --color-text: #070707;
+  --color-transparent: #bdc3c7;
+  --bg-transparent: #E5E5E5;
+  --sec-bg: #F6F6F6;
+  --body-bg: #fff;
+  --shadow: rgba(0, 0, 0, 0.25) 0px 1px 20px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 2px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+body[data-theme='dark'] {
+  --color-text: #fff;
+  --color-transparent: #bdc3c7;
+  --bg-transparent: #bdc3c7;
+  --sec-bg: #353b48;
+  --body-bg: hsl(220 7% 17%);
+  --shadow: hsla(0,0%,100%,.3) 0 0 20px;
+}
+
+body {
+  background: var(--body-bg);
+}
+
+.container {
+  max-width: $container-w;
+  margin: 0 auto;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html.scroll-active {
+  body {
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
+html.scroll-active{
+  position: relative;
+  overflow: hidden;
+
+  body {
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+html.scroll-active {
+  body {
+    position: fixed;
+    overflow: hidden;
+  }
+}
+
+body.scroll-disable {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+@import "adaptive/header-adaptive";
+@import "adaptive/heroSec-adaptive";
+@import "adaptive/skillsSec-adaptive";
+@import "adaptive/portfolioSec-adaptive";
+@import "adaptive/footer-adaptive";

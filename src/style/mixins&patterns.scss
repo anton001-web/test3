@@ -1,0 +1,28 @@
+@mixin fontz($ff, $fw, $fs) {
+  font-family: $ff, sans-serif;
+  font-weight: $fw;
+  font-size: $fs;
+}
+
+%theme-changer {
+  @include fontz('Gilroy', 700, 34px);
+  width: fit-content;
+  color: var(--color-transparent);
+  text-transform: uppercase;
+
+  span {
+    color: var(--color-text)
+  }
+
+  transform: rotate(90deg);
+}
+
+%text-default {
+  color: var(--color-text);
+  @include fontz('Gilroy', 500, 18px)
+}
+
+%title-default {
+  color: var(--color-text);
+  @include fontz('Gilroy', 800, 34px)
+}

@@ -1,0 +1,51 @@
+.footer-body {
+  padding: $gap-top $gap-sides;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-title {
+  @extend %title-default;
+  margin-bottom: 30px;
+}
+
+
+.footer-subTitle {
+  @extend %text-default;
+  margin-bottom: 30px;
+}
+
+.footer-btn {
+  background: var(--color-text);
+  padding: 10px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 60px;
+  text-decoration: none;
+  color: var(--body-bg);
+  @extend %text-default;
+}
+
+.footer-socialM__list {
+  display: flex;
+
+  .footer-socialM__list-item {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.footer-underSM__text {
+  margin-top: 30px;
+  color: var(--color-transparent);
+  @include fontz('Gilroy', 500, 14px);
+}

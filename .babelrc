@@ -1,0 +1,10 @@
+{
+  "assumptions": {
+    "noClassCalls": true,
+    "ignoreFunctionLength": true,
+    "noDocumentAll": true
+  },
+  "presets": [["@babel/preset-env", {
+    "loose": true
+  }], "@babel/preset-react"]
+}

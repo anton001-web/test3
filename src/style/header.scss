@@ -2,7 +2,7 @@
   box-shadow: var(--shadow);
 }
 
-.header[data-sticky='true'] {
+.header[data-sticky="true"] {
   position: sticky;
   z-index: 10;
   top: 0;
@@ -10,7 +10,7 @@
   animation: slideDown 0.35s ease-out;
 }
 
-.header[data-sticky='false'] {
+.header[data-sticky="false"] {
   animation: slideBack 0.35s ease-in;
 }
 
@@ -34,7 +34,6 @@
 
 .header-body {
   padding: 25px $gap-sides;
-  border-bottom: 1px solid var(--color-transparent);
   height: 100%;
 }
 
@@ -46,13 +45,13 @@
 
 .header-link__list-item-link {
   cursor: pointer;
-  @include fontz('Gilroy', 700, 18px);
+  @include fontz("Gilroy", 700, 18px);
   color: var(--color-transparent);
-  transition: color .3s;
+  transition: color 0.3s;
   text-decoration: none;
 
   &:hover {
-    color: var(--color-text)
+    color: var(--color-text);
   }
 }
 
@@ -85,7 +84,7 @@
   transform: rotate(-90deg);
   justify-content: center;
   align-items: center;
-  @include fontz('Gilroy', 700, 30px);
+  @include fontz("Gilroy", 700, 30px);
   color: var(--color-transparent);
   display: none;
   position: absolute;

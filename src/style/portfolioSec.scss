@@ -1,7 +1,10 @@
+.portfolio-section {
+  background: var(--sec-bg);
+}
+
 .portfolio-section__body {
   padding: $gap-top $gap-sides;
   text-align: center;
-  background: var(--sec-bg);
 }
 
 .portfolio-section__title {

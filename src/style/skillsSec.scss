@@ -18,7 +18,6 @@
 
 .skills-section__sk-list {
   display: flex;
-
 }
 
 .skills-section__sk-list-item {
@@ -31,11 +30,12 @@
   &:last-child {
     margin-right: 0;
   }
+  min-width: 130px;
 }
 
 .skills-section__sk-list-item__img {
   width: 90px;
-  height: 90px;
+  height: 80px;
   margin-bottom: 30px;
 }
 
@@ -68,7 +68,6 @@
   position: absolute;
   left: 0;
   padding: 30px;
-
 }
 
 @keyframes scroll {
@@ -77,6 +76,15 @@
   }
   100% {
     left: -100%;
+  }
+}
+
+@keyframes scrollMob {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -1500%;
   }
 }
 

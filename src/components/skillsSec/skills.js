@@ -1,92 +1,527 @@
 export const skills = [
-    {
-        img: '../assets/images/htmlLogo.png',
-        title: 'HTML5',
-        rate: 4
-    },
-    {
-        img: '../assets/images/jsLogo.png',
-        title: 'JavaScript',
-        rate: 3
-    },
-    {
-        img: '../assets/images/reactLogo.svg',
-        title: 'React JS',
-        rate: 4
-    },
-    {
-        img: '../assets/images/scssLogo.png',
-        title: 'Scss',
-        rate: 4
-    },
-    {
-        img: '../assets/images/reduxLogo.png',
-        title: 'Redux',
-        rate: 3
-    },
-    {
-        img: '../assets/images/webpackLogo.png',
-        title: 'Webpack',
-        rate: 4
-    },
-    {
-        img: '../assets/images/htmlLogo.png',
-        title: 'HTML5',
-        rate: 4
-    },
-    {
-        img: '../assets/images/jsLogo.png',
-        title: 'JavaScript',
-        rate: 3
-    },
-    {
-        img: '../assets/images/reactLogo.svg',
-        title: 'React JS',
-        rate: 4
-    },
-    {
-        img: '../assets/images/scssLogo.png',
-        title: 'Scss',
-        rate: 4
-    },
-    {
-        img: '../assets/images/reduxLogo.png',
-        title: 'Redux',
-        rate: 3
-    },
-    {
-        img: '../assets/images/webpackLogo.png',
-        title: 'Webpack',
-        rate: 4
-    },
-    {
-        img: '../assets/images/htmlLogo.png',
-        title: 'HTML5',
-        rate: 4
-    },
-    {
-        img: '../assets/images/jsLogo.png',
-        title: 'JavaScript',
-        rate: 3
-    },
-    {
-        img: '../assets/images/reactLogo.svg',
-        title: 'React JS',
-        rate: 4
-    },
-    {
-        img: '../assets/images/scssLogo.png',
-        title: 'Scss',
-        rate: 4
-    },
-    {
-        img: '../assets/images/reduxLogo.png',
-        title: 'Redux',
-        rate: 3
-    },
-    {
-        img: '../assets/images/webpackLogo.png',
-        title: 'Webpack',
-        rate: 4
-    },
-]
+  {
+    img: "../assets/images/1.png",
+    title: "Responsible",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/2.png",
+    title: "Skilled",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/3.png",
+    title: "Disciplined",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/4.png",
+    title: "Communicable",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/5.png",
+    title: "Persistent",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/6.png",
+    title: "Stress-resistant",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/7.png",
+    title: "Motivated",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/1.png",
+    title: "Responsible",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/2.png",
+    title: "Skilled",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/3.png",
+    title: "Disciplined",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/4.png",
+    title: "Communicable",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/5.png",
+    title: "Persistent",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/6.png",
+    title: "Stress-resistant",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/7.png",
+    title: "Motivated",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/1.png",
+    title: "Responsible",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/2.png",
+    title: "Skilled",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/3.png",
+    title: "Disciplined",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/4.png",
+    title: "Communicable",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/5.png",
+    title: "Persistent",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/6.png",
+    title: "Stress-resistant",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/7.png",
+    title: "Motivated",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/1.png",
+    title: "Responsible",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/2.png",
+    title: "Skilled",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/3.png",
+    title: "Disciplined",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/4.png",
+    title: "Communicable",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/5.png",
+    title: "Persistent",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/6.png",
+    title: "Stress-resistant",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/7.png",
+    title: "Motivated",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/1.png",
+    title: "Responsible",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/2.png",
+    title: "Skilled",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/3.png",
+    title: "Disciplined",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/4.png",
+    title: "Communicable",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/5.png",
+    title: "Persistent",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/6.png",
+    title: "Stress-resistant",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/7.png",
+    title: "Motivated",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/1.png",
+    title: "Responsible",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/2.png",
+    title: "Skilled",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/3.png",
+    title: "Disciplined",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/4.png",
+    title: "Communicable",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/5.png",
+    title: "Persistent",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/6.png",
+    title: "Stress-resistant",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/7.png",
+    title: "Motivated",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/1.png",
+    title: "Responsible",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/2.png",
+    title: "Skilled",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/3.png",
+    title: "Disciplined",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/4.png",
+    title: "Communicable",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/5.png",
+    title: "Persistent",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/6.png",
+    title: "Stress-resistant",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/7.png",
+    title: "Motivated",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/1.png",
+    title: "Responsible",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/2.png",
+    title: "Skilled",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/3.png",
+    title: "Disciplined",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/4.png",
+    title: "Communicable",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/5.png",
+    title: "Persistent",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/6.png",
+    title: "Stress-resistant",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/7.png",
+    title: "Motivated",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/1.png",
+    title: "Responsible",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/2.png",
+    title: "Skilled",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/3.png",
+    title: "Disciplined",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/4.png",
+    title: "Communicable",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/5.png",
+    title: "Persistent",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/6.png",
+    title: "Stress-resistant",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/7.png",
+    title: "Motivated",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/1.png",
+    title: "Responsible",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/2.png",
+    title: "Skilled",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/3.png",
+    title: "Disciplined",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/4.png",
+    title: "Communicable",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/5.png",
+    title: "Persistent",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/6.png",
+    title: "Stress-resistant",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/7.png",
+    title: "Motivated",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/1.png",
+    title: "Responsible",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/2.png",
+    title: "Skilled",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/3.png",
+    title: "Disciplined",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/4.png",
+    title: "Communicable",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/5.png",
+    title: "Persistent",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/6.png",
+    title: "Stress-resistant",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/7.png",
+    title: "Motivated",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/1.png",
+    title: "Responsible",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/2.png",
+    title: "Skilled",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/3.png",
+    title: "Disciplined",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/4.png",
+    title: "Communicable",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/5.png",
+    title: "Persistent",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/6.png",
+    title: "Stress-resistant",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/7.png",
+    title: "Motivated",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/1.png",
+    title: "Responsible",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/2.png",
+    title: "Skilled",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/3.png",
+    title: "Disciplined",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/4.png",
+    title: "Communicable",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/5.png",
+    title: "Persistent",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/6.png",
+    title: "Stress-resistant",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/7.png",
+    title: "Motivated",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/1.png",
+    title: "Responsible",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/2.png",
+    title: "Skilled",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/3.png",
+    title: "Disciplined",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/4.png",
+    title: "Communicable",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/5.png",
+    title: "Persistent",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/6.png",
+    title: "Stress-resistant",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/7.png",
+    title: "Motivated",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/1.png",
+    title: "Responsible",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/2.png",
+    title: "Skilled",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/3.png",
+    title: "Disciplined",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/4.png",
+    title: "Communicable",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/5.png",
+    title: "Persistent",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/6.png",
+    title: "Stress-resistant",
+    rate: 5,
+  },
+  {
+    img: "../assets/images/7.png",
+    title: "Motivated",
+    rate: 5,
+  },
+];

@@ -4,7 +4,7 @@ import { InstIco } from "../InstIco";
 
 export const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="container">
         <div className="footer-body">
           <h1 className="footer-title">Contacts</h1>
@@ -18,21 +18,21 @@ export const Footer = () => {
           <div className="footer-socialM__list">
             <a
               className="footer-socialM__list-item"
-              href="https://www.instagram.com/anton__reva/"
+              href="https://www.instagram.com/yanaapon.art/"
               target="_blank"
             >
               <InstIco />
             </a>
             <a
               className="footer-socialM__list-item"
-              href="https://www.linkedin.com/in/%D0%B0%D0%BD%D1%82%D0%BE%D0%BD-%D1%80%D0%B5%D0%B2%D0%B0-a0a95823b/"
+              href="https://vk.com/plutoart_laboratory"
               target="_blank"
             >
               <LinkedInIco />
             </a>
           </div>
           <p className="footer-underSM__text">
-            Follow me on Instagram and LinkedIn
+            Follow me on Instagram and Vkontakte
           </p>
         </div>
       </div>

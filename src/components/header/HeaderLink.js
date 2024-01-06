@@ -15,9 +15,21 @@ export const HeaderLink = ({ link }) => {
     document.documentElement.classList.remove("scroll-active");
   }
 
+  const scrollActive = () => {
+    if (window.innerWidth > 580) {
+      return null;
+    } else {
+      dispatch(burgerToggle());
+    }
+  };
+
   return (
     <li className="header-link__list-item" data-close={link.link === "Home"}>
-      <a className="header-link__list-item-link" href={link.href}>
+      <a
+        className="header-link__list-item-link"
+        href={link.href}
+        onClick={() => scrollActive()}
+      >
         {link.link}
       </a>
       {link.link === "Home" && (

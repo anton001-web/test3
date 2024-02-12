@@ -7,8 +7,8 @@ import { ThemeIco } from "../ThemeIco";
 const headerLinks = [
   { link: "Home", href: "#" },
   { link: "About me", href: "#about_sec" },
-  { link: "Qualities", href: "#qualities" },
-  { link: "Works", href: "#works" },
+  { link: "Partners", href: "#qualities" },
+  { link: "Vacancies", href: "#vacancies" },
   { link: "Contacts", href: "#footer" },
 ];
 

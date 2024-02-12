@@ -12,10 +12,10 @@ export const Footer = () => {
             Want to know more or just communicate <br />
             You are welcome!
           </span>
-          <a className="footer-btn" href="tel:+79019931215">
-            Phone me !
+          <a className="footer-btn" href="https://t.me/yanaapon">
+            Связаться со мной
           </a>
-          <div className="footer-socialM__list">
+          {/* <div className="footer-socialM__list">
             <a
               className="footer-socialM__list-item"
               href="https://www.instagram.com/yanaapon.art/"
@@ -30,10 +30,10 @@ export const Footer = () => {
             >
               <LinkedInIco />
             </a>
-          </div>
-          <p className="footer-underSM__text">
+          </div> */}
+          {/* <p className="footer-underSM__text">
             Follow me on Instagram and Vkontakte
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>

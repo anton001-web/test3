@@ -9,7 +9,7 @@ export const SkillsSec = () => {
         <div className="skills-section__body">
           <h1 className="skills-section__title">Компании-партнёры</h1>
           <span className="skills-section__subTitle">
-            Компании с которымы я сотрудничаю
+            Компании с которыми я сотрудничаю
           </span>
           <div className="skills-slider__wrap">
             <div className="skills-slider__container">

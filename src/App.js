@@ -8,6 +8,7 @@ import { SkillsSec } from "./components/skillsSec/SkillsSec";
 import { PortfolioSec } from "./components/portfSec/PortfolioSec";
 import { Footer } from "./components/footer/Footer";
 import { Gallery } from "./components/gallery/Gallery";
+import { VacanciesSec } from "./components/vacancies/VacanciesSec";
 
 export const App = () => {
   return (
@@ -17,7 +18,8 @@ export const App = () => {
         <HeroSec />
         <AboutMeSec />
         <SkillsSec />
-        <Gallery />
+        <VacanciesSec />
+        {/* <Gallery /> */}
         {/* <PortfolioSec /> */}
       </Main>
       <Footer />

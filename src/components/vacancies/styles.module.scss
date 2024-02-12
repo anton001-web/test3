@@ -1,0 +1,105 @@
+.vacancies_section {
+  margin-top: 100px;
+  background: var(--sec-bg);
+}
+
+.vacancies_title {
+  color: var(--color-text);
+  font-family: "Gilroy", sans-serif;
+  font-weight: 800;
+  font-size: 34px;
+  margin-bottom: 50px;
+  display: block;
+}
+
+.vacancies_section_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 15px;
+}
+
+.company_title {
+  color: var(--color-text);
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  display: block;
+  margin-bottom: 5px;
+
+  p {
+    color: #30336b;
+    display: inline;
+  }
+}
+
+.vacancies_list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.vacancies_list_item {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #2c3e50;
+}
+
+.wb_ico {
+  align-self: center;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.fb_ico {
+  align-self: center;
+  width: 120px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.company_pos {
+  color: var(--color-text);
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  display: block;
+
+  p {
+    color: #30336b;
+    display: inline;
+  }
+}
+
+.text {
+  margin-top: 15px;
+  color: var(--color-text);
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+
+  .text_title {
+    color: var(--color-text);
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+
+.ibs_ico {
+  align-self: center;
+  width: 100px;
+  height: 70px;
+  margin-bottom: 15px;
+}

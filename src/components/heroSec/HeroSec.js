@@ -39,10 +39,7 @@ export const HeroSec = () => {
               Yana <br />
               Apon
             </p>
-            <p className="hero-sec__subTitle">
-              IT recruiter & artist <br />
-              25 years old, Voronezh
-            </p>
+            <p className="hero-sec__subTitle">IT recruiter</p>
             <div className="hero-sec__theme-changer" onClick={themeToggle}>
               {theme.theme === "dark" ? (
                 <ThemeIco theme="dark" />

@@ -6,37 +6,39 @@ export const AboutMeSec = () => {
       <div className="container">
         <div className="about-me__section-body">
           <div className="about-me__section-info-wrap">
-            <h1 className="about-me__section-title">About me</h1>
+            <h1 className="about-me__section-title">Обо мне</h1>
             <div className="about-me__section-text-wrap">
               <p className="about-me__section-text">
-                Hey there! I'm Yana Apon, an IT recruiter and a passionate
-                artist based in the vibrant city of Voronezh, Russia. With a
-                love for technology and an eye for creativity, I've carved my
-                path at the intersection of these seemingly diverse worlds. By
-                day, I delve into the realm of IT, seeking exceptional talent to
-                join innovative teams. By night, I let my imagination roam free,
-                painting the canvas with vibrant colors and expressing my
-                innermost thoughts through art.
+                Привет! Меня зовут Яна, и я айти рекрутер с богатым опытом в
+                индустрии информационных технологий. Моя страсть к поиску
+                талантов и сбору команды, способной преодолевать любые
+                технические вызовы, никогда не угасает. За годы работы я
+                научилась не только распознавать талантливых специалистов, но и
+                понимать их потребности и амбиции, что позволяет мне находить
+                идеальное соответствие между компанией и кандидатом. Я верю, что
+                ключ к успеху в рекрутменте - это не только навыки поиска, но и
+                способность строить долгосрочные отношения, основанные на
+                взаимном уважении и доверии.
                 <br />
               </p>
               <p className="about-me__section-text">
-                My journey into the tech sphere began with a fascination for
-                problem-solving and innovation. I thrive on the challenge of
-                finding the perfect fit between exceptional minds and
-                groundbreaking projects. Beyond the tech realm, I find solace
-                and inspiration in art. Whether it's sketching, painting, or
-                experimenting with various mediums, my artistic endeavors fuel
-                my creativity and offer a different perspective on the world
-                around me.
+                Благодаря моему опыту и профессиональным навыкам, я умею
+                эффективно анализировать потребности компаний и выстраивать
+                стратегии поиска наиболее подходящих кандидатов. Моя работа не
+                ограничивается простым поиском резюме - я активно ищу
+                специалистов, которые не только соответствуют требованиям
+                вакансий, но и принесут дополнительную ценность команде своими
+                уникальными навыками и опытом.
               </p>
               <p className="about-me__section-text">
-                Living in Voronezh, a city steeped in culture and history, has
-                enriched both my professional and creative endeavors. The energy
-                of this place resonates with my drive to constantly evolve and
-                explore new horizons. At 25, I find myself at the exciting
-                crossroads of two diverse passions, embracing each day as an
-                opportunity to connect with brilliant minds in IT and unleash
-                boundless creativity on the canvas.
+                Каждый новый проект для меня - это возможность применить свой
+                профессионализм и креативность для достижения лучших
+                результатов. Я стремлюсь к постоянному росту и
+                совершенствованию, следуя за новейшими тенденциями в мире
+                рекрутмента и информационных технологий. Моя цель - помогать
+                компаниям находить и привлекать лучшие таланты, создавая условия
+                для успешного развития как для кандидатов, так и для
+                работодателей.
               </p>
             </div>
           </div>

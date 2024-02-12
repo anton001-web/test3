@@ -7,9 +7,9 @@ export const SkillsSec = () => {
     <section className="skills-section" id="qualities">
       <div className="container">
         <div className="skills-section__body">
-          <h1 className="skills-section__title">Qualities</h1>
+          <h1 className="skills-section__title">Компании-партнёры</h1>
           <span className="skills-section__subTitle">
-            My best personal qualities
+            Компании с которымы я сотрудничаю
           </span>
           <div className="skills-slider__wrap">
             <div className="skills-slider__container">
